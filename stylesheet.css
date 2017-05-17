@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-family: 'Lato', sans-serif; background-color: #00ccff; margin: 0}
+
+
+
+
+.nav {height: 53px; font-size: 18px; background-color: white; width: 100%;  position:fixed ;text-align: right;  white-space: nowrap; overflow: hidden; padding: 0px;display: inline-block; border-bottom: 10px solid; color: #00ccff }
+
+.nav ul {margin: 15px; margin-top: 17px}
+
+.nav ul li {list-style: none;display: inline-block;
+   text-align:right}
+.nav ul li a {color:grey; text-decoration:  none; font-weight: bold;   padding: 10px 50px; transition:.5s}
+
+.nav ul li b {color:#00ccff; text-decoration:  none; font-weight: bold;   padding: 10px 50px;  border-bottom: 3px solid} /* This is the style for currently selected page */
+.nav ul li a:hover{color:#00ccff; border-bottom: 3px solid}
+
+.nav img {float: left;padding: 4px}
+
+.container {width: 1000px; margin: auto; background-color: white; padding-top: 60px; height: 1000px} /*REMOVE HEIGHT WHEN ADDING CONTENT*/
