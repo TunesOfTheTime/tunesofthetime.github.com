@@ -22,7 +22,7 @@ h1 {text-align: center;margin-bottom: 15px}
 
 .container {width: 1000px; margin: auto; background-color: white; padding-top: 60px; height: 100%} /*REMOVE HEIGHT WHEN ADDING CONTENT*/
 
-.container p {padding: 10px}
+.container p {padding: 10px; text-align:justify}
 
 .leftcolumn {border-right: 10px solid; width: 70%; border-color:#00ccff; padding: 0px; display: inline-block
   } /*THIS COLUMN IS 730PX WIDE*/
