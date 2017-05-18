@@ -6,7 +6,7 @@ body {font-family: 'Lato', sans-serif; background-color: #00ccff; margin: 0}
 
 
 
-.nav {height: 53px; font-size: 18px; background-color: white; width: 100%;  position:fixed ;text-align: right;  white-space: nowrap; overflow: hidden; padding: 0px;display: inline-block; border-bottom: 10px solid; color: #00ccff }
+.nav {height: 53px; font-size: 18px; background-color: white; width: 100%;  position:fixed;text-align: right;  white-space: nowrap; overflow: hidden; padding: 0px;display: inline-block; border-bottom: 10px solid; color: #00ccff; z-index: 1 }
 
 .nav ul {margin: 15px; margin-top: 17px}
 
@@ -19,4 +19,35 @@ body {font-family: 'Lato', sans-serif; background-color: #00ccff; margin: 0}
 
 .nav img {float: left;padding: 4px}
 
-.container {width: 1000px; margin: auto; background-color: white; padding-top: 60px; height: 1000px} /*REMOVE HEIGHT WHEN ADDING CONTENT*/
+.container {width: 1000px; margin: auto; background-color: white; padding-top: 60px; height: 1000px; color:black} /*REMOVE HEIGHT WHEN ADDING CONTENT*/
+
+.leftcolumn {border-right: 10px solid; width: 70%; float:left; height: 100%; border-color:#00ccff; padding: 0px; 
+  } /*THIS COLUMN IS 730PX WIDE*/
+
+.homeimg {100%; position:relative}
+.homeimg img {display: block; width: 100%; height: auto;}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #00ccff;
+}
+.homeimg:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
