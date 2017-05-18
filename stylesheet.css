@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-body {font-family: 'Lato', sans-serif; background-color: #00ccff; margin: 0; color: #00ccf; overflow-y:scroll;}/*Makes scrollbar consistent on all pages stopping irritating repositioning of containers*/
+body {font-family: 'Lato', sans-serif; background-color: #00ccff; margin: 0; color: #00ccff; overflow-y:scroll;}/*Makes scrollbar consistent on all pages stopping irritating repositioning of containers*/
 
 
 h1 {text-align: center;margin-bottom: 15px}
